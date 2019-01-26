@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6199856521FAEEF70027A7F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6199856421FAEEF70027A7F0 /* main.m */; };
+		6199856D21FAF0050027A7F0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6199856C21FAF0050027A7F0 /* Person.m */; };
+		6199857021FAF0FB0027A7F0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 6199856F21FAF0FB0027A7F0 /* Player.m */; };
+		6199857321FAFCFF0027A7F0 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6199857221FAFCFF0027A7F0 /* Robot.m */; };
+		6199858221FB0CFD0027A7F0 /* Referee.m in Sources */ = {isa = PBXBuildFile; fileRef = 6199858121FB0CFD0027A7F0 /* Referee.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6199855F21FAEEF70027A7F0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6199856121FAEEF70027A7F0 /* 增强版猜拳游戏 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "增强版猜拳游戏"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6199856421FAEEF70027A7F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6199856B21FAF0050027A7F0 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6199856C21FAF0050027A7F0 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6199856E21FAF0FB0027A7F0 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		6199856F21FAF0FB0027A7F0 /* Player.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		6199857121FAFCFF0027A7F0 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		6199857221FAFCFF0027A7F0 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		6199857421FB071D0027A7F0 /* FistType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FistType.h; sourceTree = "<group>"; };
+		6199858021FB0CFD0027A7F0 /* Referee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Referee.h; sourceTree = "<group>"; };
+		6199858121FB0CFD0027A7F0 /* Referee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Referee.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6199855E21FAEEF70027A7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6199855821FAEEF70027A7F0 = {
+			isa = PBXGroup;
+			children = (
+				6199856321FAEEF70027A7F0 /* 增强版猜拳游戏 */,
+				6199856221FAEEF70027A7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6199856221FAEEF70027A7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6199856121FAEEF70027A7F0 /* 增强版猜拳游戏 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6199856321FAEEF70027A7F0 /* 增强版猜拳游戏 */ = {
+			isa = PBXGroup;
+			children = (
+				6199856421FAEEF70027A7F0 /* main.m */,
+				6199856B21FAF0050027A7F0 /* Person.h */,
+				6199856C21FAF0050027A7F0 /* Person.m */,
+				6199856E21FAF0FB0027A7F0 /* Player.h */,
+				6199856F21FAF0FB0027A7F0 /* Player.m */,
+				6199857121FAFCFF0027A7F0 /* Robot.h */,
+				6199857221FAFCFF0027A7F0 /* Robot.m */,
+				6199857421FB071D0027A7F0 /* FistType.h */,
+				6199858021FB0CFD0027A7F0 /* Referee.h */,
+				6199858121FB0CFD0027A7F0 /* Referee.m */,
+			);
+			path = "增强版猜拳游戏";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6199856021FAEEF70027A7F0 /* 增强版猜拳游戏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6199856821FAEEF70027A7F0 /* Build configuration list for PBXNativeTarget "增强版猜拳游戏" */;
+			buildPhases = (
+				6199855D21FAEEF70027A7F0 /* Sources */,
+				6199855E21FAEEF70027A7F0 /* Frameworks */,
+				6199855F21FAEEF70027A7F0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "增强版猜拳游戏";
+			productName = "增强版猜拳游戏";
+			productReference = 6199856121FAEEF70027A7F0 /* 增强版猜拳游戏 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6199855921FAEEF70027A7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = cloud;
+				TargetAttributes = {
+					6199856021FAEEF70027A7F0 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6199855C21FAEEF70027A7F0 /* Build configuration list for PBXProject "增强版猜拳游戏" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6199855821FAEEF70027A7F0;
+			productRefGroup = 6199856221FAEEF70027A7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6199856021FAEEF70027A7F0 /* 增强版猜拳游戏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6199855D21FAEEF70027A7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6199857321FAFCFF0027A7F0 /* Robot.m in Sources */,
+				6199856D21FAF0050027A7F0 /* Person.m in Sources */,
+				6199857021FAF0FB0027A7F0 /* Player.m in Sources */,
+				6199856521FAEEF70027A7F0 /* main.m in Sources */,
+				6199858221FB0CFD0027A7F0 /* Referee.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6199856621FAEEF70027A7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6199856721FAEEF70027A7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6199856921FAEEF70027A7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6199856A21FAEEF70027A7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6199855C21FAEEF70027A7F0 /* Build configuration list for PBXProject "增强版猜拳游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6199856621FAEEF70027A7F0 /* Debug */,
+				6199856721FAEEF70027A7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6199856821FAEEF70027A7F0 /* Build configuration list for PBXNativeTarget "增强版猜拳游戏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6199856921FAEEF70027A7F0 /* Debug */,
+				6199856A21FAEEF70027A7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6199855921FAEEF70027A7F0 /* Project object */;
+}
